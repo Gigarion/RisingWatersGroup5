@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:'Temp/Assembly-CSharp.dll'
+-out:'Temp/Assembly-CSharp-Editor-firstpass.dll'
 -unsafe
 -r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'/Applications/Unity.app/Contents/Managed/UnityEditor.dll'
@@ -74,6 +74,12 @@
 -r:'/Applications/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'
 -r:'/Applications/Unity.app/Contents/Managed/UnityEditor.Graphs.dll'
 -r:'/Applications/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
+-r:'Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll'
+-r:'Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll'
+-r:'Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll'
+-r:'Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll'
+-r:'Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll'
+-r:'Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll'
 -r:'/Users/yzshi/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll'
 -r:'/Users/yzshi/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll'
 -r:'/Users/yzshi/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll'
@@ -81,12 +87,6 @@
 -r:'/Users/yzshi/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll'
 -r:'/Users/yzshi/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll'
 -r:'/Users/yzshi/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll'
--r:'Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll'
--r:'Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll'
--r:'Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll'
--r:'Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll'
--r:'Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll'
--r:'Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll'
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_5_OR_NEWER
@@ -186,17 +186,15 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:CROSS_PLATFORM_INPUT
-'Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs'
-'Assets/SampleScenes/Menu/Scripts/PauseMenu.cs'
-'Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs'
-'Assets/SampleScenes/Scripts/CameraSwitch.cs'
-'Assets/SampleScenes/Scripts/LevelReset.cs'
-'Assets/SampleScenes/Scripts/ParticleSceneControls.cs'
-'Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs'
-'Assets/SampleScenes/Scripts/SlowMoButton.cs'
--r:'/Applications/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
--r:'/Applications/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
--r:'/Applications/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
--r:'/Applications/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll'
--r:'/Applications/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
--sdk:unity
+'Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs'
+'Assets/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs'
+'Assets/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs'
+'Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs'
+'Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs'
+'Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs'
+-r:'/Applications/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
+-r:'/Applications/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
+-r:'/Applications/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.Lang.dll'
+-r:'/Applications/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/Boo.Lang.dll'
+-sdk:2.0
