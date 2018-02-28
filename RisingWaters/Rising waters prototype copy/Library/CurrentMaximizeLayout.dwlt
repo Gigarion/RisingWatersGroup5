@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 75
+  controlID: 26
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -53,14 +53,14 @@ MonoBehaviour:
     height: 367
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 37.42737901210785
+  lastFramingTime: 3574.4850140810013
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1, z: -10}
+    m_Target: {x: 3.735097, y: 0.19622517, z: -8.526527}
     speed: 2
-    m_Value: {x: 0, y: 1, z: -10}
+    m_Value: {x: 3.735097, y: 0.19622517, z: -8.526527}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -84,13 +84,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.009200718, y: 0.98053664, z: -0.047406252, w: -0.1903049}
+    m_Target: {x: -0.108692855, y: 0.8595001, z: -0.20515995, w: -0.45536235}
     speed: 2
-    m_Value: {x: -0.009200718, y: 0.98053664, z: -0.047406252, w: -0.1903049}
+    m_Value: {x: -0.108692855, y: 0.8595001, z: -0.20515995, w: -0.45536235}
   m_Size:
-    m_Target: 22
+    m_Target: 13.096593
     speed: 2
-    m_Value: 22
+    m_Value: 13.096593
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 908
     height: 755
-  m_MinSize: {x: 202, y: 442}
-  m_MaxSize: {x: 4002, y: 8042}
+  m_MinSize: {x: 202, y: 421}
+  m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 76
+  controlID: 27
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,8 +197,8 @@ MonoBehaviour:
     y: 388
     width: 908
     height: 367
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 113
+  controlID: 73
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -359,9 +359,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 9efbffff00000000
+    m_SelectedIDs: c26d0000
+    m_LastClickedID: 28098
+    m_ExpandedIDs: 2c5ce5ff26dfe5ff667de7ff1c6dedffbcd7ffff40f8ffff9efbffff000000005a3e0000e25b0000585c0000a66d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -377,7 +377,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
   - 
@@ -447,19 +447,20 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders: []
+    m_Folders:
+    - Assets/Ameye/Alex's Door System Lite/Prefabs
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/yzshi/Documents/GitHub/RisingWatersGroup5/RisingWaters/Rising
-    waters prototype
+    waters prototype copy
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ee240000
     m_LastClickedID: 9454
-    m_ExpandedIDs: 5c280000
+    m_ExpandedIDs: 56290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -485,9 +486,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: c26d0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 5c280000
+    m_ExpandedIDs: 56290000d0290000c02a0000e22a0000702c0000ea2d00005c34000090350000bc360000b6580000ec580000f25800001a590000a2620000a4620000a8620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -512,8 +513,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: c26d0000
+    m_LastClickedInstanceID: 28098
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
