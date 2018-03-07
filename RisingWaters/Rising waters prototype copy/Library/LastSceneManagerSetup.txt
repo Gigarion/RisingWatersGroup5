@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Apartment 2-28 a.unity
+- path: Assets/Apartment 3-6 a.unity
   isLoaded: 1
   isActive: 1
