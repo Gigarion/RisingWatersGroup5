@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 6390
+  controlID: 2237
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 6445
+  controlID: 2205
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -347,9 +347,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 211.54385, y: -327.21176, z: 17.417831}
+    m_Target: {x: 2164.4358, y: -1245.0623, z: -633.1785}
     speed: 2
-    m_Value: {x: 211.54385, y: -327.21176, z: 17.417831}
+    m_Value: {x: 2164.4358, y: -1245.0623, z: -633.1785}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -373,13 +373,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.19688106, y: 0.75949454, z: -0.5594278, w: -0.26729456}
+    m_Target: {x: 0.16648988, y: 0.7821659, z: -0.23584436, w: 0.55215496}
     speed: 2
-    m_Value: {x: -0.19688107, y: 0.7594946, z: -0.55942786, w: -0.2672946}
+    m_Value: {x: 0.16648988, y: 0.7821659, z: -0.23584436, w: 0.55215496}
   m_Size:
-    m_Target: 485.4999
+    m_Target: 3046.087
     speed: 2
-    m_Value: 485.4999
+    m_Value: 3046.087
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -447,9 +447,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 6641ffff08b7ffff9efbffff00000000ca410000
+    m_SelectedIDs: b2ddfeff
+    m_LastClickedID: -74318
+    m_ExpandedIDs: 9efbffff0000000038420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,19 +511,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/NatureStarterKit2/Textures
+    - Assets/com/heparo/terrain/toolkit/editor/resources
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/NatureStarterKit2/Textures
+  - Assets/com/heparo/terrain/toolkit/editor/resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\David\Senior Spring\ATL 497\Shared\RisingWatersGroup5\Noah
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 203}
-    m_SelectedIDs: 363c0000
-    m_LastClickedID: 15414
-    m_ExpandedIDs: 0000000096290000382a0000c82a0000502b00006c2c0000702c0000ce2c0000722d0000902d0000882e0000962e0000f22e00008e2f000070300000c0300000fe30000000310000da320000f63200000e34000078340000b8350000b836000068390000843900001e3a00004a3a0000623c00005c3d00006e3d00009c3d00001046000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 660}
+    m_SelectedIDs: ec2c0000
+    m_LastClickedID: 11500
+    m_ExpandedIDs: 00000000982900003a2a0000e42a00006c2b00008a2c00008e2c0000ec2c0000962d0000b42d0000b02e0000be2e00001a2f0000b62f00009a300000c0300000ec3000002a3100002c3100000e3300002a33000042340000ac340000ec350000ee3600003e390000a2390000be390000883a0000a43c0000a43d0000b63d0000e43d0000f846000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -551,7 +551,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000096290000382a0000c82a0000502b00006c2c0000702c0000ce2c0000722d0000902d0000882e0000962e0000f22e00008e2f000070300000c0300000fe30000000310000da320000f63200000e34000078340000b8350000b836000068390000843900001e3a00004a3a0000623c00005c3d00006e3d00009c3d00001046000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000982900003a2a0000e42a00006c2b00008a2c00008e2c0000ec2c0000962d0000b42d0000b02e0000be2e00001a2f0000b62f00009a300000c0300000ec3000002a3100002c3100000e3300002a33000042340000ac340000ec350000ee3600003e390000a2390000be3900005a3a0000883a0000a43c0000a43d0000b63d0000e43d0000f846000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -603,7 +603,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 170}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 158
 --- !u!114 &16
@@ -633,7 +633,7 @@ MonoBehaviour:
     width: 514
     height: 905
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 549.9551}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
